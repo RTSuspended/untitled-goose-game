@@ -1,0 +1,58 @@
+1.1.3
+- Changed how a goose dragging the box is affected by the other goose hopping inside the box. This should stop some rare physics glitches and crashes.
+
+1.1.2
+- Fixed a bug where windows computers in certain timezones could not progress past the main menu. For now, if your time zone data cannot be read by Unity, instead of freezing the save file descriptions will just show the wrong time.
+
+1.1.1
+- Fixed a bug where the Tidy Neighbour could get stuck while the goose was pretending to be a statue.
+- Fixed some minor controller handling issues.
+- Made player 2's movement stick rebinding load correctly.
+
+1.1.0
+- Added a two-player game mode.
+- Fixed a bug where items that re-entered the man's backyard may not be thrown over the fence.
+- Fixed a case where the tomato boxes could remain closed, preventing players from dropping the bucket on the burly man's head.
+- Fixed an issue where controllers with IDs that included a / or \ character could not be rebound.
+- Fixed a bug where certain items would be ignored until something moved them, particularly the newspaper and teacup.
+- Zooming out with the controls set to "toggle" no longer hides the markers which represent obscured items.
+
+1.0.9
+- [PS4] Fixed an issue that could make the menu freeze when the PS4 system language was set to Arabic.
+
+1.0.8
+- Put in a potential fix for a rare issue where the screen could go green.
+
+1.0.7
+- Fixed a cosmetic issue affecting the Chinese serif font.
+
+1.0.6
+- Made loading of save game files more robust (Thanks, Denis!)
+- Made the goose only load at areas that have been properly unlocked.
+- Fixed a case where the Groundskeeper couldn't decide which hat to wear.
+- Made catching items thrown over the fence register more reliably.
+- Fixed an issue that affected the crossing out of the shopping list in French.
+
+1.0.5
+- Fixed some localisation mistakes.
+- Added a setting to change the font of the settings menu.
+- Added a setting to have the camera only follow the goose, for people who experience motion sickness.
+- Fixed a crash that could happen when completing certain goals after completing the entire to-do list.
+- Added a message to the loading screen which explains that the game autosaves .
+- Added a message to the rebind menu that explains how to find the in-game controls screen.
+- Made the TV shop phone loud enough that it can be heard when the TV Shop Owner is on bell patrol.
+- Fixed a problem where new items wouldn't be placed on the bust.
+- Added this version history file to the build.
+
+1.0.4
+- Fixed some areas where the goose could become stuck.
+- Fixed an issue where a character that was outside their own normal area could stop moving.
+- Corrected some localisation mistakes.
+- Fixed certain to-do list items not getting crossed off correctly in some languages.
+
+1.0.3
+- Fixed an issue where the pub's "no geese" sign could be picked up without opening the nearby tomato box.
+
+1.0.2
+- Prevented items from drifting away from people's hands at very high framerates.
+- Fixed a delay that was happening during transition out of the options menu.
